@@ -2,4 +2,43 @@ body {
     padding: 16px;
     padding-left: 64px;
     padding-right: 64px;
+    padding-top: 96px;
+}
+
+.navbar-custom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 80px;
+    z-index: 1;
+}
+
+.footer-custom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+
+.quiz-answer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-answer-row button {
+    width: 40%;
+    height: 80px;
+}
+
+.firework {
+    width: 50%;
+    height: 50%;
+}
+
+.you-won {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
